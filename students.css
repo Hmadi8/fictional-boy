@@ -75,8 +75,18 @@ body{
         border-radius: 10px;
         border: none;
         padding: 10px;
-        margin: auto;
+        text-align: center;
+        box-shadow: 10px 10px 50px 0.2px black
 
+    }
+    .today-f1:hover{
+        background-color: #00ffcc;
+        color: white;
+        transition: 0.5s;
+        box-shadow: 10px 10px 50px 0.2px black;
+    }
+    .button-top{
+        display:flex; justify-content:center;
     }
     div.livt{
     display: flex;
@@ -87,3 +97,4 @@ body{
     color: #00ffcc;
     }
    
+

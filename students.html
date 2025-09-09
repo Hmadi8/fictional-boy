@@ -14,19 +14,27 @@
     <main>
         <div class="content">
         <div class="morm" >
-           <form action="https://formsubmit.co/mhmad090609@gmail.com">
-            <input type="text" name="السم الشخص " placeholder=" الاسم الكامل : " required>
-            <input type="text" name="اسم العاله" placeholder="اسم المنتج :" required>
-            <input type="tel" name=" رقم الشخص " placeholder=" رقم الهاتف :">
-                <button class="button-12">أرسال</button>
-           </form>
+<form action="https://formsubmit.co/mhmad090609@gmail.com" method="POST">
+    <!-- الاسم -->
+    <input type="text" name="full_name" placeholder="الاسم الكامل :" required>
+
+    <!-- اسم المنتج -->
+    <input type="text" name="product_name" placeholder="اسم المنتج :" required>
+
+    <!-- رقم الهاتف -->
+    <input type="tel" name="phone_number" placeholder="رقم الهاتف :">
+
+    <!-- زر الإرسال -->
+    <button class="button-12" type="submit">إرسال</button>
+</form>
         </div>
         </div>
            <!-- #region 6-->
-            <div class="livt">
-          <button onclick="window.history.back()" class="today-f1" >⬅ رجوع</button>
-         <!-- #region --></div>
+                 <div class="button-top">
+  <button onclick="window.history.back()" class="today-f1">⬅ رجوع</button>
+</div>
     </main>
   
 </body>
+
 </html>

@@ -1,0 +1,100 @@
+    *,html{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        margin: 0;
+        padding: 0;
+                  background: linear-gradient(270deg, #ff00cc, #111, #00ffcc);
+           background-size: 300% 300%;
+ animation: eeee 3s infinite;
+    }
+         @keyframes eeee {
+              0%   { background-position: 0% 50%; }
+      50%  { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+        /* في النهاية أزرق */
+    }
+        header{
+        background: #111;
+        color: whitesmoke;
+        text-align: center;
+        font-size: xx-large;
+        border-radius:0 0 10px 10px ;
+        }
+
+        
+        img{
+            width: 200px;
+        }
+        .content{
+         text-align: center;
+        width: 300px; 
+         margin: auto;
+            
+        }
+    
+        .c0-c9{
+         display: inline-block; 
+         background-color:#f0f0f0;
+        width: 90%;
+        margin:20px 0 20px 0;   
+        border-radius: 10px;
+        padding-bottom: 20px;       
+        }
+            .c0-c9:hover{
+        transform:translate(10px);
+    }
+          .c0-c9 .info{
+        height: 200px;
+        overflow: auto;
+    } 
+       .info{
+        text-align: right;
+        margin: 10px 20px 10px 20px;
+        font-size: large;
+        list-style-type: none;
+       }
+         button:hover{
+        background-color:black;
+        color: whitesmoke; 
+               
+    }
+    button{
+        font-size:14px;
+        margin-top: 20px;
+        border: none;
+        border-radius: 15px;
+        background: red;
+        color: whitesmoke;
+        padding:10px 30px 10px 30px ;
+            box-shadow: 0 4px 2px 1px orange;
+    }
+    footer{
+        background: #f0f0f0;
+        padding:20px;
+    }
+    ul{
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+    }
+    ul h3{
+        font-size: small;
+        list-style-type: none;
+    }
+
+    a{
+        text-decoration: none;
+    }
+    .footer-a{
+        margin-left: 50px;
+        font-size: x-large;
+    }
+    .today-f1{
+        background: whitesmoke;
+        color: #111;
+    }
+    .imag-larg{
+         width: 300px;
+    }

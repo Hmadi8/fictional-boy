@@ -1,0 +1,89 @@
+
+    *,html{
+        margin: 0;
+        padding: 0;
+    }
+body{
+    margin: 0;
+    padding: 0;
+          background: linear-gradient(270deg, #ff00cc, #3333ff, #00ffcc);
+           background-size: 300% 300%;
+ animation: changeColor 3s infinite; 
+}
+     @keyframes changeColor {
+              0%   { background-position: 0% 50%; }
+      50%  { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+        /* في النهاية أزرق */
+    }
+    header{
+        background-color: whitesmoke;
+        padding: 10px;
+        text-align: center;
+        font-size: large;
+        border-radius: 0px 0px 10px 10px ;
+    }
+    header span{
+        font-size: larger;
+    }
+.content{
+    height: 500px;
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: center;
+    align-items: center;
+        }
+    
+
+
+    form{ 
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 50px;
+        border-radius: 20px;
+    }
+     /**/
+    input{
+        padding: 5px 10px 5px 10px;
+        border: none;
+        border-radius: 10px;
+        text-decoration: none;
+        animation:changeColor infinite;
+    }
+
+
+     /*
+     
+     
+     */
+    button{
+        width:50px;
+        margin-right: 70px;
+            }
+    form .button-12{
+        border-radius: 10px;
+        border: none;
+        padding: 4px;
+        margin: auto;
+    }     
+ .morm{
+                border-radius: 20px;
+                box-shadow: 10px 10px 50px 0.2px black;
+            }
+    .today-f1{
+        border-radius: 10px;
+        border: none;
+        padding: 10px;
+        margin: auto;
+
+    }
+    div.livt{
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: center;
+    
+    align-items: center;
+    color: #00ffcc;
+    }
+   

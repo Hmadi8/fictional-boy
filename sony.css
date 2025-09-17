@@ -44,7 +44,10 @@
         }
 
 
+               .c0-c9,.imag-larg{
+            overflow: hidden;
 
+        }
         .imag-larg {
             width: 300px;
         }
@@ -121,3 +124,4 @@
             padding: 10px 30px 10px 30px;
             box-shadow: 0 4px 2px 1px orange;
         }
+

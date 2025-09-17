@@ -1,0 +1,123 @@
+        * html {
+            margin: 0;
+            padding: 0;
+
+
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(270deg, #001d3f, #003366, #7ba8d4, #050044);
+            background-size: 800% 800%;
+            animation: moveColors 10s ease infinite;
+
+
+        }
+
+        @keyframes moveColors {
+            0% {
+                background-position: 0% 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
+
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        header {
+            background: #000;
+            padding: 10px;
+            color: whitesmoke;
+            text-align: center;
+            font-size: larger;
+            border-radius: 0 0 10px 10px;
+        }
+
+        img {
+            width: 150px;
+            text-align: center;
+        }
+
+
+
+        .imag-larg {
+            width: 300px;
+        }
+
+        .imag-largr {
+            width: 409px;
+        }
+
+        .content {
+            display: flex;
+            flex-flow: column;
+            text-align: center;
+            justify-content: space-between;
+            overflow: hidden;
+        }
+
+        .c0-c9 {
+            background-color: whitesmoke;
+            margin: 1rem;
+
+            border-radius: 20px;
+
+        }
+
+        .c0-c9 ul {
+            text-align: center;
+            width: 200px;
+            margin: auto;
+            overflow: hidden;
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .c0-c9 ul li {
+            margin-bottom: 20px;
+            font-size: 15px;
+        }
+
+               .c0-c9 .zar-buttn:hover{
+        background-color:black;
+        color: whitesmoke; 
+               
+    }
+        .c0-c9 .zar-buttn {
+
+            margin-bottom: 16px;
+            border: none;
+            border-radius: 15px;
+            background: red;
+            color: whitesmoke;
+            padding: 10px 30px 10px 30px;
+            box-shadow: 0 4px 2px 1px orange;
+
+        }
+
+        footer {
+            background: #f0f0f0;
+            padding: 20px;
+        }
+        footer ul {
+            list-style-type: none;
+            text-align: center;
+            padding: 0;
+        }
+        footer ul h3 {
+            color: black;
+        }   
+        footer ul button {
+            margin-top: 10px;
+            border: none;
+            border-radius: 15px;
+            background: red;
+            color: whitesmoke;
+            padding: 10px 30px 10px 30px;
+            box-shadow: 0 4px 2px 1px orange;
+        }

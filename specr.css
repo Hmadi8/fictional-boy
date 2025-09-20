@@ -1,0 +1,126 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+  /* ممنوع تلمس هذا الكود */
+        body {
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(270deg ,#111111,#da2020);
+            background-size:  200% 300%;
+            animation: eeee 3s infinite;
+        }
+  
+
+        @keyframes eeee {
+    
+
+                          0%   { background-position: 0% 50%; }
+      50%  { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+
+           
+        }
+
+        .content {
+            text-align: center;
+            width: 300px;
+            margin: auto;
+
+        }
+      
+        .c0-c9 {
+            display: inline-block;
+            background-color: #f0f0f0;
+            width: 90%;
+            margin: 20px 0 20px 0;
+            border-radius: 10px;
+            padding-bottom: 20px;
+            overflow: hidden;
+        }
+    /* ممنوع تلمس هذا الكود */
+  
+
+
+        header {
+            background: black;
+            padding: 0.1rem;
+            color: whitesmoke;
+            text-align: center;
+            font-size: 2em;
+            border-radius: 0 0 10px 10px;
+        }
+
+        img {
+            width: 350px;
+
+        }
+
+        .imag-x-smal {
+            max-width: 580px;
+            width: 50%;
+        }
+
+        .imag-smal {
+            width: 150px;
+        }
+
+        .imag-larg {
+            max-width: 600px;
+            width: 90%;
+        }
+ 
+        .blac {
+            color: whitesmoke;
+            font-size: 30px;
+             font-family: 'Tajawal', sans-serif;
+            text-align: center;
+        }
+     /* 
+                 border-radius: 10px;
+            font-size: 15px;
+            border: none;
+            padding: 5px 10px 5px 10px;
+            margin: 10px 0;
+            box-shadow: 3px 3px 8px 3px black;
+     */
+        .f5-12 {
+  
+        font-size:14px;
+        margin-top: 20px;
+        border: none;
+        border-radius: 15px;
+        background: red;
+        color: whitesmoke;
+        padding:10px 30px 10px 30px ;
+            box-shadow: 0 4px 2px 1px orange;
+    }
+        
+
+        button.f5-12:hover {
+            color: black;
+            background-color: red;
+        }
+            footer{
+        background: #f0f0f0;
+        padding:20px;
+    }
+    ul{
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+    }
+    ul h3{
+        font-size: small;
+        list-style-type: none;
+    }
+
+    a{
+        text-decoration: none;
+    }
+    .footer-a{
+        margin-left: 50px;
+        font-size: x-large;
+    }
+ 

@@ -28,8 +28,11 @@
             margin-right: 10px;
             
         }
-        img{
-            width: 300px;
+        .content-33{
+                  display: grid; 
+      grid-template-columns: repeat(3, 1fr); /* 4 أعمدة دائمًا */
+      gap: 15px; /* مسافة بين العناصر */
+      padding: 5px;
         }
         .content{
          text-align: center;
@@ -105,6 +108,9 @@
         margin-left: 50px;
         font-size: x-large;
     }
-    .imag-larg{
-        width: 300px;
+    .imag img{
+        width: 100%;
+        height: auto;
+        display: block;
     }
+

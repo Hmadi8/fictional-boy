@@ -68,14 +68,6 @@
         color: whitesmoke; 
                
     }
-    @media (max-width: 1366px) {
-        .content{
-            width: 100%;
-            
-        }
-       
-        
-    }
 
     button{
         font-size:14px;
@@ -113,4 +105,5 @@
         height: auto;
         display: block;
     }
+
 

@@ -1,0 +1,148 @@
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .contaenre {
+            display: grid;
+            grid-template-columns: repeat(2, 2fr);
+            padding: 10px;
+            gap: 10px;
+            background-color: whitesmoke;
+        }
+
+        .cart {
+            background-color: var(--whitesmoke--);
+            border: var(--border-solid--);
+            border-radius: var(--border-radius-);
+            overflow: var(--overflow--);
+            text-align: var(--text-align--);
+            display: var(--display--);
+            justify-content: var(--justify-content--);
+            flex-direction: var(--flex-direction--);
+            padding: var(--padding--);
+        }
+
+        .cart img {
+            width: var(--img-width--);
+            height: var(--height-img--);
+            display: var(--display-img--);
+        }
+
+        .cart p {
+            display: var(--display-p--);
+            -webkit-box-orient: vertical;
+            overflow: var(--text-overflow-p--);
+            text-overflow: ellipsis;
+        }
+
+        .cart button {
+            background: var(--background-bu--);
+            font-size: var(--font-size-bu--);
+            color: var(--color--bu-);
+            padding: var(--padding-bu--);
+            border-radius: var(--border-radius-bu--);
+            cursor: var(--cursor-bu--);
+        }
+
+        .cart button:hover {
+            background: var(--background--hov--);
+        }
+
+        .cart .actions {
+            display: var(--display-ac--);
+            justify-content: var(--justify-content-ac--);
+            margin-top: var(--margin-top-ac--);
+            align-items: var(--align-items-ac--);
+        }
+
+        .cart .cart-icon {
+            width: var(--width-car--);
+            height: var(--height-car--);
+            cursor: var(--cursor-car--);
+        }
+
+        /* #color */
+        :root {
+            --width-car--: 24px;
+            --height-car--: 24px;
+            --cursor-car--: pointer;
+            /* #car */
+            --display-ac--: flex;
+            --justify-content-ac--: space-between;
+            /* يخلي الزر يسار والأيقونة يمين */
+            --align-items-ac--: center;
+            --margin-top-ac--: auto;
+            /* #cart-button-hovor*/
+            --background--hov--: #218838;
+            /* #cart-button*/
+            --background-bu--: #28a745;
+            --color--bu-: white;
+            --border-bu--: none;
+            --padding-bu--: 6px 12px;
+            --border-radius-bu--: 5px;
+            --cursor-bu--: pointer;
+            --font-size-bu--: 13px;
+            /* #cart-button*/
+            /* #cart-p*/
+            --display-p--: -webkit-box;
+            /*  -webkit-line-clamp: ;   يظهر 4 أسطر فقط */
+            --webkit-box-orient-p--: vertical;
+            --overflow-p--: hidden;
+            --text-overflow-p--: ellipsis;
+            /* #cart-p*/
+            /* #cart-img*/
+            --img-width--: 100%;
+            --height-img--: auto;
+            --display-img--: block;
+            --border-radius-img--: 8px;
+            /* #cart-img*/
+            /* #cart*/
+            --padding--: 10px;
+            --flex-direction--: column;
+            --justify-content--: space-between;
+            --display--: flex;
+            --text-align--: center;
+            --overflow--: hidden;
+            --border-radius-: 10px;
+            --border-solid--: 1px solid;
+            --green--: green;
+            --wheat--: wheat;
+            --whitesmoke--: whitesmoke;
+            /* #cart*/
+        }
+           footer{
+    background-color: #218838;
+    padding: 10px;
+  text-align: center;
+   }
+   footer h3{
+    padding: 4px;
+    background-color: wheat;
+    border-radius: 5px;
+   }
+   footer button{
+    box-shadow: 3px 5px 4px 8px ;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+   }
+     footer button:hover{
+      background-color: #218838;
+      color:whitesmoke;
+     }
+.header-1{
+  text-align: center;
+  background-color:wheat;
+}
+.header-1 .larg{
+  font-size: 20px;
+}
+        /* #color */

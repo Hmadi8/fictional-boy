@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+}
+body{
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+}
+
+/* #الاب التاني f2 */
+.header-1{
+  text-align: center;
+  background-color:wheat;
+}
+.header-1 .larg{
+  font-size: 20px;
+}
+/* #الاب التاني f2 */
+
+/* #الاب  */
+.container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 10px;
+    gap: 20px;
+}
+
+/* #الاب  */
+/* #cart ال */ .cart{
+    
+ background-color: antiquewhite;
+    border: 1px solid;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 10px;
+ /* #ا .{ }لصور كوله */
+
+}
+
+.cart img {
+          width: 100%;
+      height: auto;           
+      display: block;
+      border-radius: 8px;
+}
+  /* #الصور كوله */
+  /* #الp  */
+  
+    .cart p {
+  display: -webkit-box;
+ /*  -webkit-line-clamp: ;   يظهر 4 أسطر فقط */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+    }
+      .cart button {
+              background: #28a745;
+      color: white;
+      border: none;
+      padding: 6px 12px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 13px;
+    }
+        .cart button:hover {
+      background: #218838;
+    }
+        .cart .cart-icon {
+      width: 24px;
+      height: 24px;
+      cursor: pointer;
+    }
+.cart .actions{
+      display: flex;
+      justify-content: space-between; /* يخلي الزر يسار والأيقونة يمين */
+      align-items: center;
+      margin-top: auto;
+
+}
+   /* #footer  */
+   footer{
+    background-color: #218838;
+    padding: 10px;
+  text-align: center;
+   }
+   footer h3{
+    padding: 4px;
+    background-color: wheat;
+    border-radius: 5px;
+   }
+   footer button{
+    box-shadow: 3px 5px 4px 8px ;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+   }
+     footer button:hover{
+      background-color: #218838;
+      color:whitesmoke;
+     }
+
+   /*   #footer  */
